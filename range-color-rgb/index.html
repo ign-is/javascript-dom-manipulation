@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/color-wheel.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+            <div class="inner-container face front">
+                <div class="color">
+                    <label for="red">RED</label>
+                    <h2 class="red-text"></h2>
+                    <input 
+                        type="range" 
+                        id="red" 
+                        min="0" 
+                        max="255" 
+                        value="0"
+                        step="1"
+                    >
+                </div>
+
+                <div class="color">
+                    <label for="green">GREEN</label>
+                    <h2 class="green-text"></h2>
+                    <input 
+                        type="range" 
+                        id="green" 
+                        min="0" 
+                        max="255" 
+                        value="0"
+                        step="1"
+                    >
+                </div>
+
+                <div class="color">
+                    <label for="blue">BLUE</label>
+                    <h2 class="blue-text"></h2>
+                    <input 
+                        type="range" 
+                        id="blue" 
+                        min="0" 
+                        max="255" 
+                        value="0"
+                        step="1"
+                    >
+                </div>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
